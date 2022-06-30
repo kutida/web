@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(127, 217, 255);
+}
+.boxA::after{
+   content: "";
+    display: block;
+    clear: both;
+}
+.box1{
+background-color: rgb(17, 179, 203);
+height: 200px;
+}
+
+.box2{
+    background-color: rgb(20, 134, 222);
+    height: 200px;
+    float: left;
+    width: 50%;
+}
+.box3{
+    background-color: rgb(13, 97, 136);
+    height: 200px;
+    float: left;
+    width: 50%;
+}
+.box4{
+    background-color: rgb(36, 14, 234);
+    height: 200px;
+}
