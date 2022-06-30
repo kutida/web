@@ -1,0 +1,30 @@
+body{
+    background-color: aliceblue;
+}
+.boxA:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.box1{
+    background-color: aqua;
+    height: 200px;
+    width: 33.33%;
+    float: left;
+}
+.box2{
+    background-color: aquamarine;
+    height: 200px;
+    width: 33.33%;
+    float: left;
+}
+.box3{
+    background-color: beige;
+    height: 200px;
+    width: 33.33%;
+    float: left;
+}
+.box4{
+    background-color: blueviolet;
+    height: 200px;
+}

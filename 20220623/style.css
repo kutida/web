@@ -1,0 +1,28 @@
+body{
+    background-color: antiquewhite;
+}
+.boxA::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.box1{
+    background-color: rgb(168, 110, 33);
+    height: 200px;
+}
+.box2{
+    background-color: aquamarine;
+    height: 200px;
+}
+.box3{
+    background-color: azure;
+    height: 200px;
+    width: 50%;
+    float: left;
+}
+.box4{
+    background-color: blue;
+    height: 200px;
+    width: 50%;
+    float: left;
+}
