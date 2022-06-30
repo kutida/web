@@ -9,14 +9,12 @@ body{
 .box1{
     background-color: aquamarine;
     height: 200px;
-    width: 40%;
-float: left;
+   
 }
 .box2{
     background-color: azure;
     height: 200px;
-    width: 60%;
-    float: left;
+    
 }
 .box3{
     background-color: bisque;
@@ -25,13 +23,31 @@ float: left;
 .box4{
     background-color: black;
     height: 200px;
-    width: 50%;
-    float: left;
+    
 }
 .box5{
     background-color: blue;
     height: 200px;
-    width: 50%;
-    float: left;
+    
 
+}
+@media (min-width:768px){
+
+
+    .box1{
+        width: 40%;
+        float: left;
+    }
+    .box2{
+        width: 60%;
+        float: left;
+    }
+    .box4{
+        width: 50%;
+        float: left;
+    }
+    .box5{
+        width: 50%;
+        float: left;
+    }
 }
