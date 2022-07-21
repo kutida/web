@@ -1,14 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 body{
     background-color: aquamarine;
-    color: rgb(9, 49, 78);
-    font-size: 120%;
+    color: rgb(17, 19, 20);
+    font-size: 150%;
 }
 a{
-    color: rgb(13, 12, 91);
+    color: rgb(11, 11, 13);
     text-decoration: none;
 }
 a:hover{
@@ -21,6 +18,6 @@ ul,li{
 .bg{
     width: 100%;
     height: 100vh;
-    background-image:url(./img/bg.jpg) ;
+    background-image:url(./beauty-gedc4988a7_1920.jpg) ;
     background-repeat: no-repeat;
 }
