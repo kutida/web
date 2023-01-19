@@ -1,0 +1,246 @@
+@charset "UTF-8";
+
+
+
+body{
+   font-family: 'BIZ UDPMincho', serif;}
+ul,li{
+   list-style: none;
+}
+.header h1{
+   margin-left: 10px;
+}
+.box3{
+   width: 72%;
+   float: left;
+}
+.sub{
+   width: 25%;
+   float: right;
+}
+
+
+.nav{
+   background-color:#7cdac1;
+}
+.nav ul{
+   display: flex;
+   justify-content: left;
+   align-items: center;
+   padding: 6px;
+   background-color: rgb(119,193,193);
+   
+}
+
+.nav li{
+   list-style-type: none;
+}
+
+.nav a {
+   display: block;
+   border-radius: 10px;
+   padding: 12px 24px;
+   text-decoration: none;
+   color: #000;
+}
+*{
+   margin: 0;
+   padding: 0;
+}
+
+.nav li a:hover{
+   background-color: #94ecf6;
+}
+.boxA{
+   display: flex;
+}
+/* Box5の上に区切り線を入れる　*/
+.footer{
+   border-top: solid 1px #dddddd;
+}
+
+
+
+
+
+
+
+.share{
+   margin: 30px 10px 0px ;
+}
+
+
+.share li a{
+   
+   display: block;
+   padding:10px 5px;
+color: #fff;
+font-size: 14px;
+text-align: center;
+text-decoration: none;
+}
+.share-tw{
+   background-color: #55acee;
+}
+.share-fb{
+   background-color: #3b5998;
+}
+.share-in{
+   background-color: #CF2E92;
+}
+.share ul{
+   display: flex;
+}
+.share li{
+   width: 33.333%;
+}
+
+
+@media (max-width:599px){
+.menu li a{
+   padding: 10px 3px;
+   font-size: 11px;
+}
+}
+.sideBar ul{
+   position: relative;
+   display: inline-block;
+   padding-left: 12px;
+   color:rgb(33,33,33) ;
+   text-decoration: none;
+}
+.siBear a{
+   display: block;
+   border-radius: 10px;
+   color: rgb(0,0,0);
+   text-decoration: none;
+}
+@media(min-width:768px){
+    .box3{
+      width: 70%;
+    }
+    .sub{
+      width: 30%;
+    }
+    .boxA{
+      display: flex;
+    }
+}
+
+@media(min-width: 600px) and (max-width: 767px)
+{}
+
+
+@media(min-width:1040px){
+   .header, .nav, .boxA, .footer{
+      width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+   }
+}
+
+.kijicat li a {
+   display: block;
+   padding: 10px;
+   color: #fff;
+   font-size: 14px;
+   text-decoration: none;
+   background-color: #75dbe7;
+   margin-top: 30px;
+   margin-bottom: 20px;
+}
+.kijicat li a:hover{
+background-color: #eee;
+}
+.kijicat ul{
+   display: flex;
+   list-style-type: none;
+}
+.kanren{
+   margin: 40px 10px 0px 10px;
+   padding: 20px;
+   background-color: #f0f0d4;
+}
+.kanren ul{
+   display: flex;
+}
+.kanren li{
+   width: 25%;
+}
+.kanren a{
+   display: block;
+   padding: 10px;
+}
+.img {
+   margin-left: 10px;
+}
+.osusume a{
+   position: relative;
+}
+.osusume .text{
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   padding: 5px 10px;
+   background-color: rgba(0,0,0,0.5);
+   color: #fff;
+   width: 100%;
+   box-sizing: border-box;
+}
+.osusume img{
+   width: 100%;
+}
+
+
+
+.box3 p i{
+   padding: 15px;
+}
+.box3 p{
+ margin-top: 10px;
+   margin-left: 10px;
+}
+.kijicat li{
+   padding: 5px;
+}
+.kiji h2{
+   margin-top: 40px;
+   padding-left: 10px;
+   border-left: solid 10px #7cbac1;
+   font-weight: normal;
+   margin-bottom: 20px;
+   margin-left: 10px;
+}
+.sub h2{
+   padding: 20px;
+}
+.sub li{
+   padding: 10px;
+}
+.sub h1{
+   padding: 20px;
+}
+.box3 h1{
+   padding: 10px;
+}
+.header h1{
+   padding: 20px;
+}
+.sub h2{
+   margin-bottom: 10px;
+   border-bottom:dotted 2px #ddd;
+}
+.sub li a{
+   display: block;
+   padding: 5px;
+   color: #000;
+   font-size: 14px;
+   text-decoration: none;
+}
+.sub i{
+   margin-right: 5px;
+   color: #888888;
+}
+.sub a:hover{
+   background-color: #eee;
+}
