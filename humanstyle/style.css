@@ -10,25 +10,21 @@ ul,li{
 .header h1{
    margin-left: 10px;
 }
-.box3{
-   width: 72%;
-   float: left;
-}
-.sub{
-   width: 25%;
-   float: right;
+
+body{
+   font-size: 30px;
 }
 
 
 .nav{
-   background-color:#7cdac1;
+   background-color:#5025dd;
 }
 .nav ul{
    display: flex;
    justify-content: left;
    align-items: center;
    padding: 6px;
-   background-color: rgb(119,193,193);
+   background-color: #565459;
    
 }
 
@@ -41,7 +37,7 @@ ul,li{
    border-radius: 10px;
    padding: 12px 24px;
    text-decoration: none;
-   color: #000;
+   color: rgb(246, 243, 243);
 }
 *{
    margin: 0;
@@ -49,11 +45,9 @@ ul,li{
 }
 
 .nav li a:hover{
-   background-color: #94ecf6;
+   background-color: #9e94f6;
 }
-.boxA{
-   display: flex;
-}
+
 /* Box5の上に区切り線を入れる　*/
 .footer{
    border-top: solid 1px #dddddd;
@@ -115,20 +109,6 @@ text-decoration: none;
    color: rgb(0,0,0);
    text-decoration: none;
 }
-@media(min-width:768px){
-    .box3{
-      width: 70%;
-    }
-    .sub{
-      width: 30%;
-    }
-    .boxA{
-      display: flex;
-    }
-}
-
-@media(min-width: 600px) and (max-width: 767px)
-{}
 
 
 @media(min-width:1040px){
@@ -145,7 +125,7 @@ text-decoration: none;
    color: #fff;
    font-size: 14px;
    text-decoration: none;
-   background-color: #75dbe7;
+   background-color:  #565459;
    margin-top: 30px;
    margin-bottom: 20px;
 }
@@ -159,7 +139,7 @@ background-color: #eee;
 .kanren{
    margin: 40px 10px 0px 10px;
    padding: 20px;
-   background-color: #f0f0d4;
+   background-color:#8c96ac ;
 }
 .kanren ul{
    display: flex;
@@ -178,19 +158,16 @@ background-color: #eee;
    position: relative;
 }
 .osusume .text{
-   position: absolute;
-   bottom: 0;
-   left: 0;
    padding: 5px 10px;
-   background-color: rgba(0,0,0,0.5);
-   color: #fff;
+   background-color:#8c96ac;
+   color: rgb(3, 3, 3);
    width: 100%;
    box-sizing: border-box;
+   font-size: 30px;
 }
 .osusume img{
    width: 100%;
 }
-
 
 
 .box3 p i{
@@ -206,7 +183,7 @@ background-color: #eee;
 .kiji h2{
    margin-top: 40px;
    padding-left: 10px;
-   border-left: solid 10px #7cbac1;
+   border-left: solid 10px #323636;
    font-weight: normal;
    margin-bottom: 20px;
    margin-left: 10px;
@@ -236,6 +213,7 @@ background-color: #eee;
    color: #000;
    font-size: 14px;
    text-decoration: none;
+   font-size: 30px;
 }
 .sub i{
    margin-right: 5px;
@@ -246,4 +224,7 @@ background-color: #eee;
 }
 .img2{
    margin: 0px 0px 0px 80px;
+}
+body{
+   background-color: #8c96ac;
 }
